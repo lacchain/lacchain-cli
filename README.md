@@ -1,6 +1,6 @@
 ## LACChain CLI
 
-This is a command line client to operate a LACChain node.
+This is a command line client to operate a LACChain node in the LACChain Besu Network.
 
 ## Prerequisites
 
