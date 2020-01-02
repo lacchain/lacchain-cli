@@ -1,4 +1,4 @@
-## LACCCHAIN CLI
+## LACChain CLI
 
 This is a command line client to operate a LACChain node.
 
