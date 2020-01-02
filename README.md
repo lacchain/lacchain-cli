@@ -1,6 +1,6 @@
 ## LACCCHAIN CLI
 
-This is a command line client to operate lacchain node.
+This is a command line client to operate a LACChain node.
 
 ## Prerequisites
 
