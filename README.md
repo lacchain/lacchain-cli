@@ -6,15 +6,11 @@ This is a command line client to operate a LACChain node in the LACChain Besu Ne
 
 * Go 1.12+ installation or later
 * **GOPATH** environment variable is set correctly
-* docker version 17.03 or later
 
 ## Package overview
 
 1. **cmd** contains the commands
-2. **lib** contains most of the code
-4. **business** contains business logic that will be consume by APIs
-5. **model** conatins data models of requests and responses of APIs
-7. **util** contains util functions about files and ethereum address
+2. **model** conatins data models of requests and responses of APIs
 
 ## Install
 
