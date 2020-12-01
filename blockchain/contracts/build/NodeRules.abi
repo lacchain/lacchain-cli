@@ -1,0 +1,501 @@
+[
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "exitReadOnly",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getByIndex",
+      "outputs": [
+        {
+          "name": "enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "ip",
+          "type": "bytes16"
+        },
+        {
+          "name": "port",
+          "type": "uint16"
+        },
+        {
+          "name": "nodeType",
+          "type": "uint8"
+        },
+        {
+          "name": "geoHash",
+          "type": "bytes6"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        },
+        {
+          "name": "did",
+          "type": "string"
+        },
+        {
+          "name": "group",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_groupSource",
+          "type": "bytes32"
+        },
+        {
+          "name": "_groupDestination",
+          "type": "bytes32"
+        }
+      ],
+      "name": "addConnection",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "ip",
+          "type": "bytes16"
+        },
+        {
+          "name": "port",
+          "type": "uint16"
+        },
+        {
+          "name": "nodeType",
+          "type": "uint8"
+        },
+        {
+          "name": "geoHash",
+          "type": "bytes6"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        },
+        {
+          "name": "did",
+          "type": "string"
+        },
+        {
+          "name": "group",
+          "type": "bytes32"
+        }
+      ],
+      "name": "addEnode",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "sourceEnodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceEnodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "sourceEnodeIp",
+          "type": "bytes16"
+        },
+        {
+          "name": "sourceEnodePort",
+          "type": "uint16"
+        },
+        {
+          "name": "destinationEnodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "destinationEnodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "destinationEnodeIp",
+          "type": "bytes16"
+        },
+        {
+          "name": "destinationEnodePort",
+          "type": "uint16"
+        }
+      ],
+      "name": "connectionAllowed",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_groupSource",
+          "type": "bytes32"
+        },
+        {
+          "name": "_groupDestination",
+          "type": "bytes32"
+        }
+      ],
+      "name": "removeConnection",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "allowlist",
+      "outputs": [
+        {
+          "name": "enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "ip",
+          "type": "bytes16"
+        },
+        {
+          "name": "port",
+          "type": "uint16"
+        },
+        {
+          "name": "nodeType",
+          "type": "uint8"
+        },
+        {
+          "name": "geoHash",
+          "type": "bytes6"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        },
+        {
+          "name": "did",
+          "type": "string"
+        },
+        {
+          "name": "group",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getContractVersion",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "ip",
+          "type": "bytes16"
+        },
+        {
+          "name": "port",
+          "type": "uint16"
+        }
+      ],
+      "name": "removeEnode",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "addsRestrictions",
+          "type": "bool"
+        }
+      ],
+      "name": "triggerRulesChangeEvent",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "name": "_enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "name": "_ip",
+          "type": "bytes16"
+        },
+        {
+          "name": "_port",
+          "type": "uint16"
+        }
+      ],
+      "name": "getByEnode",
+      "outputs": [
+        {
+          "name": "nodeType",
+          "type": "uint8"
+        },
+        {
+          "name": "geoHash",
+          "type": "bytes6"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "organization",
+          "type": "string"
+        },
+        {
+          "name": "did",
+          "type": "string"
+        },
+        {
+          "name": "group",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "enterReadOnly",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "isReadOnly",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getSize",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_nodeIngressAddress",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "nodeAdded",
+          "type": "bool"
+        },
+        {
+          "indexed": false,
+          "name": "enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "enodeIp",
+          "type": "bytes16"
+        },
+        {
+          "indexed": false,
+          "name": "enodePort",
+          "type": "uint16"
+        }
+      ],
+      "name": "NodeAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "nodeRemoved",
+          "type": "bool"
+        },
+        {
+          "indexed": false,
+          "name": "enodeHigh",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "enodeLow",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "name": "enodeIp",
+          "type": "bytes16"
+        },
+        {
+          "indexed": false,
+          "name": "enodePort",
+          "type": "uint16"
+        }
+      ],
+      "name": "NodeRemoved",
+      "type": "event"
+    }
+  ]
