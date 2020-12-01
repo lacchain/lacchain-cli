@@ -1,0 +1,35 @@
+General Logger:	2020/12/01 16:19:59 update.go:91: Post http://localhost:4545: dial tcp 127.0.0.1:4545: connect: connection refused
+General Logger:	2020/12/01 16:20:34 update.go:91: Post http://localhost:4545: dial tcp 127.0.0.1:4545: connect: connection refused
+General Logger:	2020/12/01 16:22:07 update.go:93: Post http://localhost:4545: dial tcp 127.0.0.1:4545: connect: connection refused
+General Logger:	2020/12/01 16:22:12 update.go:93: Post http://localhost:4545: dial tcp 127.0.0.1:4545: connect: connection refused
+General Logger:	2020/12/01 16:22:15 update.go:93: Post http://localhost:4545: dial tcp 127.0.0.1:4545: connect: connection refused
+General Logger:	2020/12/01 16:23:01 update.go:93: Post http://localhost:4545: dial tcp 127.0.0.1:4545: connect: connection refused
+General Logger:	2020/12/01 16:56:44 client.go:112: RelayHub Contract instanced: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 16:56:46 update.go:123: abi: field nodeAdded can't be found in the given value
+General Logger:	2020/12/01 17:10:05 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:10:05 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:10:07 update.go:128: abi: cannot unmarshal uint16 in to *big.Int
+General Logger:	2020/12/01 17:11:40 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:11:40 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:25:02 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:25:02 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:27:54 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:27:54 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:29:54 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:29:54 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:30:50 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:30:50 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:33:20 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:33:20 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:37:52 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:37:52 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:42:54 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:42:54 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:54:21 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:54:21 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 17:54:23 client.go:133: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 17:54:24 client.go:133: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 17:54:25 client.go:133: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 17:54:26 client.go:133: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 17:54:27 client.go:133: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 17:54:27 client.go:133: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
