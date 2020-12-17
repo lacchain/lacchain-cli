@@ -31,9 +31,13 @@ import (
     rules "github.com/lacchain/lacchain-cli/blockchain/contracts"
     "github.com/lacchain/lacchain-cli/errors"
     log "github.com/lacchain/lacchain-cli/util"
+    "github.com/lacchain/lacchain-cli/model"
 
 	"github.com/spf13/cobra"
 )
+
+const TOPIC_ADDED = "0x983a527ad2402ad85d7f70bcae14ec1567e0b0d2e06a6f72ffbcabfe3e8863ea"
+const TOPIC_REMOVED ="0xf05dee0659735cf956ff02ae9f4bd9f1c41bb30ea20d7a1a3869a42c7254ca45"
 
 // updateCmd represents the update command
 var updateCmd = &cobra.Command{
@@ -110,38 +114,59 @@ func uploadBootnodes(){
     if err != nil {
         log.GeneralLogger.Fatal(err)
 	}
-	
+    
+    addBootList := []model.Event{}
+    removeBootList := []model.Event{}
+    
 	for _, vLog := range logs {
         fmt.Println("BlockHash:",vLog.BlockHash.Hex()) 
         fmt.Println("BlockNumber:",vLog.BlockNumber) 
         fmt.Println("TxHash:",vLog.TxHash.Hex())
 
-        event := struct {
-            NodeAdded bool
-            EnodeHigh [32]byte
-            EnodeLow [32]byte
-            EnodeIp [16]byte
-            EnodePort uint16
-        }{}
+        event := model.Event{}
         err := contractAbi.Unpack(&event, "NodeAdded", vLog.Data)
         if err != nil {
             log.GeneralLogger.Fatal(err)
         }
 
-        fmt.Println("nodeAdded:",event.NodeAdded)
-        fmt.Println(fmt.Sprintf("enodeHigh:0x%s",hex.EncodeToString(event.EnodeHigh[:])))
-        fmt.Println(fmt.Sprintf("enodeLow:0x%s",hex.EncodeToString(event.EnodeLow[:])))
-        fmt.Println(fmt.Sprintf("enodeIp:0x%s",hex.EncodeToString(event.EnodeIp[:])))
-        fmt.Println("enodePort:",event.EnodePort)
+        if TOPIC_ADDED == vLog.Topics[0].Hex(){
+            fmt.Println("nodeAdded:",event.NodeAdded)
+            fmt.Println(fmt.Sprintf("enodeHigh:0x%s",hex.EncodeToString(event.EnodeHigh[:])))
+            fmt.Println(fmt.Sprintf("enodeLow:0x%s",hex.EncodeToString(event.EnodeLow[:])))
+            fmt.Println(fmt.Sprintf("enodeIp:0x%s",hex.EncodeToString(event.EnodeIp[:])))
+            fmt.Println("enodePort:",event.EnodePort)
 
-        client.GetNodeInformation(contractAddress,event.EnodeHigh,event.EnodeLow,event.EnodeIp,event.EnodePort)
+            nodeType,err := client.GetNodeInformation(contractAddress,event.EnodeHigh,event.EnodeLow,event.EnodeIp,event.EnodePort,nil)
+            if err != nil {
+                log.GeneralLogger.Println(err)
+            }
+            if nodeType == 1{
+                fmt.Println("Agregando el bootnode")
+                addBootList = append(addBootList,event)
+            }else{
+                fmt.Println("No hacer nada")
+            }
+        } else if TOPIC_REMOVED == vLog.Topics[0].Hex(){
+            fmt.Println("nodeRemoved:",event.NodeAdded)
+            fmt.Println(fmt.Sprintf("enodeHigh:0x%s",hex.EncodeToString(event.EnodeHigh[:])))
+            fmt.Println(fmt.Sprintf("enodeLow:0x%s",hex.EncodeToString(event.EnodeLow[:])))
+            fmt.Println(fmt.Sprintf("enodeIp:0x%s",hex.EncodeToString(event.EnodeIp[:])))
+            fmt.Println("enodePort:",event.EnodePort)
 
-        var topics [4]string
-        for i := range vLog.Topics {
-            topics[i] = vLog.Topics[i].Hex()
+            oldBlockNumber := new(big.Int).SetUint64(vLog.BlockNumber-1) 
+            nodeType,err := client.GetNodeInformation(contractAddress,event.EnodeHigh,event.EnodeLow,event.EnodeIp,event.EnodePort,oldBlockNumber)
+            if err != nil {
+                log.GeneralLogger.Println(err)
+            }
+            if nodeType == 1{
+                fmt.Println("Eliminando el bootnode")
+                removeBootList = append(removeBootList,event)
+            }else{
+                fmt.Println("No es bootnode")
+            }
         }
 
-        fmt.Println("Topic:",topics[0])
+        log.ReplaceConfigFile(addBootList,removeBootList)
 	}
     
 	eventSignature := []byte("NodeAdded(bool,bytes32,bytes32,bytes32,bytes16,uint)")
