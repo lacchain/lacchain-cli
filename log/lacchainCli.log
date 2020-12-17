@@ -33,3 +33,207 @@ General Logger:	2020/12/01 17:54:25 client.go:133: Node: {2 [0 100 106 110 52 49
 General Logger:	2020/12/01 17:54:26 client.go:133: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
 General Logger:	2020/12/01 17:54:27 client.go:133: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
 General Logger:	2020/12/01 17:54:27 client.go:133: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 18:52:06 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 18:52:06 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 18:52:08 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 18:54:44 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 18:54:44 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 18:54:45 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:07:57 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:07:57 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:07:58 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:10:12 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:10:12 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:10:13 client.go:127: Node: {0 [0 0 0 0 0 0]    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]}
+General Logger:	2020/12/01 19:10:13 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:13:43 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:13:43 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:13:45 client.go:132: Node: {0 [0 0 0 0 0 0]    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]}
+General Logger:	2020/12/01 19:13:45 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:14:19 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:14:19 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:14:20 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:54:42 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:54:42 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/01 19:54:43 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:54:43 client.go:139: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 19:54:43 client.go:139: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 19:54:44 client.go:139: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 19:54:44 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:54:44 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/01 19:54:44 client.go:139: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 19:54:44 client.go:139: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/01 19:54:45 client.go:139: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:18:00 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 10:18:00 update.go:93: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 10:18:02 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/03 10:18:03 client.go:139: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:18:03 client.go:139: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:18:03 client.go:139: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:18:03 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/03 10:18:03 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/03 10:18:04 client.go:139: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:18:04 client.go:139: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:18:04 client.go:139: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:22:21 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 10:22:21 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 10:22:23 client.go:139: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:22:23 client.go:139: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:22:23 client.go:139: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:22:23 client.go:139: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 10:22:24 client.go:139: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:23:25 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:23:25 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:23:26 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:23:44 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:23:44 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:23:45 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:23:46 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:23:46 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:23:46 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:23:46 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:38:30 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:38:30 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:38:32 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:38:32 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:38:32 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:38:32 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:38:32 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:48:51 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:48:51 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 11:48:52 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:48:53 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:48:53 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:48:53 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 11:48:53 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 13:40:21 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 13:40:21 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/03 13:40:23 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 13:40:23 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 13:40:23 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 13:40:24 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/03 13:40:24 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 10:38:49 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 10:38:49 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 10:38:55 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 10:41:31 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 10:41:31 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 10:41:33 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 10:41:33 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 10:41:33 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 10:41:34 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 10:41:34 update.go:142: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 10:41:34 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 12:49:59 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 12:49:59 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 12:50:02 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 12:50:02 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 12:50:02 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 12:50:02 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 12:50:03 update.go:142: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 12:50:03 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 13:50:57 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 13:50:57 update.go:95: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 13:50:59 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 13:51:00 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 13:51:00 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 13:51:00 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 13:51:00 update.go:142: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 13:51:01 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:14:41 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 16:14:41 update.go:96: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 16:14:44 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:14:44 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:14:44 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:14:44 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:14:45 update.go:139: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 16:14:45 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:21:28 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 16:21:28 update.go:96: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 16:21:30 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:21:30 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:21:30 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:21:30 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:21:31 update.go:141: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 16:21:31 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:25:46 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 16:25:46 update.go:96: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 16:25:48 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:25:48 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:25:48 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:25:48 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 16:25:49 update.go:141: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 16:25:49 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:07:28 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 17:07:28 update.go:97: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 17:07:31 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:07:31 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:07:31 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:07:31 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:07:32 update.go:142: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 17:07:32 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:27 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 17:39:27 update.go:97: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 17:39:30 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:30 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:31 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:31 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:32 client.go:134: Node: {2 [0 100 106 110 52 49] hyp-besu-regular-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:32 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:33 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:33 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:34 update.go:142: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 17:39:34 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 17:39:35 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:17 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 18:36:17 update.go:97: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 18:36:19 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:19 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:20 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:20 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:20 client.go:134: Node: {2 [0 100 106 110 52 49] hyp-besu-regular-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:20 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:20 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:21 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:21 update.go:143: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 18:36:21 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:36:21 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:36 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 18:53:36 update.go:97: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] hyp-besu-regular-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:39 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:40 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:40 update.go:143: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/16 18:53:40 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/16 18:53:40 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:33 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/17 10:02:33 update.go:97: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/17 10:02:37 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:37 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:37 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:37 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:37 client.go:134: Node: {2 [0 100 106 110 52 49] hyp-besu-regular-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:37 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:38 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:38 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:38 update.go:143: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/17 10:02:38 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:02:39 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:10 client.go:112: NodeRules contract address: 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/17 10:05:10 update.go:97: nodeRules 0x640F89bE2864A5ec4246206dC2411a630d1BEB97
+General Logger:	2020/12/17 10:05:12 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:12 client.go:134: Node: {2 [0 100 106 110 52 49] writer-metrika Metrika NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:12 client.go:134: Node: {2 [0 100 106 110 52 49] kruger-writer Kruger Corporation NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:12 client.go:134: Node: {2 [0 100 106 110 52 49] WRI_MinisterioTrabajo Ministerio del Trabajo Peru NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:13 client.go:134: Node: {2 [0 100 106 110 52 49] hyp-besu-regular-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:13 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:13 client.go:134: Node: {2 [0 100 106 110 52 49] NA NA NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:13 client.go:134: Node: {2 [0 100 106 110 52 49] writer-LifeChain Sigue tu Dinero S.A. NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:14 update.go:143: can't get Node Information from NodeRules contract: abi: attempting to unmarshall an empty string while arguments are expected
+General Logger:	2020/12/17 10:05:14 client.go:134: Node: {2 [0 100 106 110 52 49] lac-eth-juntos-node-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}
+General Logger:	2020/12/17 10:05:14 client.go:134: Node: {2 [0 100 106 110 52 49] writer-juntos-1 Everis NA [75 180 142 118 241 157 230 235 237 125 89 212 104 0 80 128 48 174 206 164 107 165 107 209 152 85 217 68 115 226 139 192]}

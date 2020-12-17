@@ -115,24 +115,25 @@ func (ec *Client) GetNodeIngressContract(contractAddress common.Address, name [3
 }
 
 //GetNodeInformation ...
-func (ec *Client) GetNodeInformation(contractAddress common.Address, enodeHigh, enodeLow [32]byte, enodeIp [16]byte, port uint16)(string, error){
+func (ec *Client) GetNodeInformation(contractAddress common.Address, enodeHigh, enodeLow [32]byte, enodeIp [16]byte, port uint16, blockNumber *big.Int)(uint8, error){
 	contract, err := permissioning.NewRules(contractAddress, ec.client)
 	if err != nil {
 		msg := fmt.Sprintf("can't instance NodeRules contract %s", contractAddress)
 		err = errors.FailedContract.Wrapf(err,msg)
-		return "", err
+		return 3, err
 	}
 
-	node, err := contract.GetByEnode(&bind.CallOpts{},enodeHigh,enodeLow,enodeIp,port)
+	node, err := contract.GetByEnode(&bind.CallOpts{BlockNumber:blockNumber},enodeHigh,enodeLow,enodeIp,port)
+	fmt.Println("Node:",node)
 	if err != nil {
 		msg := fmt.Sprintf("can't get Node Information from NodeRules contract")
 		err = errors.FailedContract.Wrapf(err,msg)
-		return "", err
+		return 3, err
 	}
 
 	log.GeneralLogger.Println("Node:",node)
 
-	return "", nil
+	return node.NodeType, nil
 }
 
 //GenerateTransaction ...
